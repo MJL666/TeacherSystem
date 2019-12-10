@@ -27,10 +27,12 @@ CREATE TABLE `job` (
   `duedate` char(10) DEFAULT NULL COMMENT '报告提交截止日期',
   `type` int(20) DEFAULT NULL COMMENT '作业类型。1-实验；2-作业',
   `note` varchar(255) DEFAULT NULL,
-  `createTime` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '记录创建时间',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+
+
   PRIMARY KEY (`ID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
-
+--  `createTime` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '记录创建时间',
 -- ----------------------------
 -- Records of job
 -- ----------------------------
