@@ -1,0 +1,223 @@
+2019-12-10 09:03:30.751 [restartedMain] DEBUG com.submit.WorkuploadApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-12-10 12:36:21.608 [restartedMain] DEBUG com.submit.WorkuploadApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-12-10 19:07:40.389 [restartedMain] DEBUG com.submit.WorkuploadApplication - Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2019-12-10 19:09:10.941 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:09:11.044 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:09:11.072 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:09:11.096 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:09:11.096 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:09:11.098 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:09:20.516 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:09:20.517 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:09:20.518 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:09:27.615 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:09:27.621 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), (String)
+2019-12-10 19:09:27.625 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 6
+2019-12-10 19:09:38.729 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:09:38.732 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:09:38.734 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:09:49.390 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:09:49.390 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:09:49.392 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:09:50.621 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:09:50.623 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:09:50.624 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:09:50.699 [http-nio-80-exec-5] DEBUG c.submit.dao.studentclassMapper.getstudentbyclaid - ==>  Preparing: select a.id, a.no,s.name,s.pinyin,a.classid, a.studentno,a.note from studentclass a left join student s on a.studentno = s.studentno where a.classID=? order by a.no asc 
+2019-12-10 19:09:50.703 [http-nio-80-exec-5] DEBUG c.submit.dao.studentclassMapper.getstudentbyclaid - ==> Parameters: (String)
+2019-12-10 19:09:50.704 [http-nio-80-exec-5] DEBUG c.submit.dao.studentclassMapper.getstudentbyclaid - <==      Total: 0
+2019-12-10 19:10:57.463 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:10:57.463 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:10:57.464 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:10:59.431 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:10:59.431 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:10:59.432 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:11:00.767 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:11:00.767 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:11:00.768 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:11:01.974 [http-nio-80-exec-6] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:11:01.975 [http-nio-80-exec-6] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), (String)
+2019-12-10 19:11:01.979 [http-nio-80-exec-6] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 6
+2019-12-10 19:12:42.396 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:12:42.396 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:12:42.399 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:12:46.123 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==>  Preparing: select * from teacher 
+2019-12-10 19:12:46.123 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==> Parameters: 
+2019-12-10 19:12:46.125 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.getAllTeacher - <==      Total: 2
+2019-12-10 19:12:51.041 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:12:51.042 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:12:51.044 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:14:12.927 [http-nio-80-exec-6] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:14:12.928 [http-nio-80-exec-6] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), (String)
+2019-12-10 19:14:12.932 [http-nio-80-exec-6] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 6
+2019-12-10 19:14:21.935 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - ==>  Preparing: select studentno, name, pinyin, password from student where studentno = ? 
+2019-12-10 19:14:21.937 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - ==> Parameters: zhang(String)
+2019-12-10 19:14:21.939 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - <==      Total: 0
+2019-12-10 19:14:47.914 [http-nio-80-exec-8] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - ==>  Preparing: select studentno, name, pinyin, password from student where studentno = ? 
+2019-12-10 19:14:47.915 [http-nio-80-exec-8] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - ==> Parameters: 1100888(String)
+2019-12-10 19:14:47.918 [http-nio-80-exec-8] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:14:53.146 [http-nio-80-exec-5] DEBUG com.submit.dao.jobMapper.gettaskdetail - ==>  Preparing: SELECT DATE_FORMAT(b.createTime,'%Y-%m-%d %h:%m:%s') as time,b.*, c.coursename FROM job b ,teachclass c WHERE b.teachclassid in (SELECT a.classID FROM studentclass a WHERE a.studentno=?) AND c.ID=b.teachclassid ORDER BY b.ID DESC 
+2019-12-10 19:14:53.149 [http-nio-80-exec-5] DEBUG com.submit.dao.jobMapper.gettaskdetail - ==> Parameters: 1100888(String)
+2019-12-10 19:14:57.772 [http-nio-80-exec-2] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid - ==>  Preparing: SELECT * from teachclass WHERE ID in (SELECT classID FROM studentclass WHERE studentno=?) GROUP BY coursename,ID ORDER BY coursesemester DESC 
+2019-12-10 19:14:57.775 [http-nio-80-exec-2] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid - ==> Parameters: 1100888(String)
+2019-12-10 19:14:57.777 [http-nio-80-exec-2] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid - <==      Total: 0
+2019-12-10 19:14:59.385 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid2 - ==>  Preparing: select a.*,b.name from teachclass a,teacher b where ID in (SELECT classID FROM studentclass WHERE studentno=?) and a.teacherno=b.teacherno GROUP BY a.coursename,a.ID ORDER BY a.coursesemester DESC 
+2019-12-10 19:14:59.387 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid2 - ==> Parameters: 1100888(String)
+2019-12-10 19:14:59.390 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid2 - <==      Total: 0
+2019-12-10 19:14:59.391 [http-nio-80-exec-8] DEBUG com.submit.dao.teachclassMapper.getallclasslesson - ==>  Preparing: select a.*,b.name from teachclass a,teacher b where a.teacherno=b.teacherno GROUP BY a.coursename,a.ID ORDER BY a.coursesemester DESC 
+2019-12-10 19:14:59.392 [http-nio-80-exec-8] DEBUG com.submit.dao.teachclassMapper.getallclasslesson - ==> Parameters: 
+2019-12-10 19:14:59.396 [http-nio-80-exec-8] DEBUG com.submit.dao.teachclassMapper.getallclasslesson - <==      Total: 4
+2019-12-10 19:15:01.990 [http-nio-80-exec-1] DEBUG com.submit.dao.scoreMapper.getscoreupload - ==>  Preparing: SELECT d.studentno,d.score,d.`name` ,DATE_FORMAT(d.time,'%Y-%m-%d %h:%m:%s') as time,f.coursename,e.title FROM teachclass f, (SELECT a.studentno,a.jobID,a.time,IFNULL(a.score,0) as score,b.`name` FROM score a LEFT JOIN student b on a.studentno=b.studentno where a.studentno=?)d LEFT JOIN job e on d.jobID=e.ID WHERE e.teachclassid=f.ID ORDER BY e.ID DESC 
+2019-12-10 19:15:01.992 [http-nio-80-exec-1] DEBUG com.submit.dao.scoreMapper.getscoreupload - ==> Parameters: 1100888(String)
+2019-12-10 19:15:01.994 [http-nio-80-exec-1] DEBUG com.submit.dao.scoreMapper.getscoreupload - <==      Total: 0
+2019-12-10 19:15:06.667 [http-nio-80-exec-2] DEBUG com.submit.dao.jobMapper.gettaskdetail - ==>  Preparing: SELECT DATE_FORMAT(b.createTime,'%Y-%m-%d %h:%m:%s') as time,b.*, c.coursename FROM job b ,teachclass c WHERE b.teachclassid in (SELECT a.classID FROM studentclass a WHERE a.studentno=?) AND c.ID=b.teachclassid ORDER BY b.ID DESC 
+2019-12-10 19:15:06.668 [http-nio-80-exec-2] DEBUG com.submit.dao.jobMapper.gettaskdetail - ==> Parameters: 1100888(String)
+2019-12-10 19:15:07.246 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - ==>  Preparing: select studentno, name, pinyin, password from student where studentno = ? 
+2019-12-10 19:15:07.247 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - ==> Parameters: 1100888(String)
+2019-12-10 19:15:07.247 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:15:26.601 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid - ==>  Preparing: SELECT * from teachclass WHERE ID in (SELECT classID FROM studentclass WHERE studentno=?) GROUP BY coursename,ID ORDER BY coursesemester DESC 
+2019-12-10 19:15:26.602 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid - ==> Parameters: 1100888(String)
+2019-12-10 19:15:26.604 [http-nio-80-exec-10] DEBUG c.s.dao.teachclassMapper.getteacherclassbystuid - <==      Total: 0
+2019-12-10 19:15:39.014 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:15:39.014 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:15:39.016 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:15:41.551 [http-nio-80-exec-9] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:15:41.552 [http-nio-80-exec-9] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:15:41.553 [http-nio-80-exec-9] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:15:42.761 [http-nio-80-exec-6] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:15:42.762 [http-nio-80-exec-6] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:15:42.763 [http-nio-80-exec-6] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:15:51.289 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:15:51.289 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:15:51.291 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:15:51.295 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:15:51.296 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:15:51.297 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:15:55.901 [http-nio-80-exec-9] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:15:55.901 [http-nio-80-exec-9] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), (String)
+2019-12-10 19:15:55.904 [http-nio-80-exec-9] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 6
+2019-12-10 19:22:57.508 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==>  Preparing: select * from teacher 
+2019-12-10 19:22:57.508 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==> Parameters: 
+2019-12-10 19:22:57.509 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - <==      Total: 2
+2019-12-10 19:23:22.384 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:23:22.384 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:23:22.385 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:23:23.662 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:23:23.662 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:23:23.663 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:23:23.915 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:23:23.915 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:23:23.916 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:23:24.100 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:23:24.101 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:23:24.104 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:23:31.375 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:23:31.376 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:23:31.377 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:23:41.280 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:23:41.281 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: root(String)
+2019-12-10 19:23:41.282 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 0
+2019-12-10 19:23:51.381 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:23:51.382 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:23:51.383 [http-nio-80-exec-4] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:23:51.391 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:23:51.392 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:23:51.394 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:23:52.929 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==>  Preparing: select * from teacher 
+2019-12-10 19:23:52.930 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==> Parameters: 
+2019-12-10 19:23:52.931 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - <==      Total: 2
+2019-12-10 19:24:00.746 [http-nio-80-exec-5] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:24:00.746 [http-nio-80-exec-5] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:24:00.747 [http-nio-80-exec-5] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:24:02.487 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:24:02.489 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:24:02.492 [http-nio-80-exec-3] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:24:10.658 [http-nio-80-exec-6] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:24:10.658 [http-nio-80-exec-6] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 123456(String)
+2019-12-10 19:24:10.659 [http-nio-80-exec-6] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 0
+2019-12-10 19:24:17.448 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==>  Preparing: select * from teacher 
+2019-12-10 19:24:17.448 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==> Parameters: 
+2019-12-10 19:24:17.449 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - <==      Total: 2
+2019-12-10 19:24:18.514 [http-nio-80-exec-10] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:24:18.515 [http-nio-80-exec-10] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), (String)
+2019-12-10 19:24:18.516 [http-nio-80-exec-10] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 6
+2019-12-10 19:24:22.719 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:24:22.719 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:24:22.721 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:24:23.823 [http-nio-80-exec-2] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:24:23.823 [http-nio-80-exec-2] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), (String)
+2019-12-10 19:24:23.825 [http-nio-80-exec-2] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 6
+2019-12-10 19:24:35.633 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:24:35.634 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), 张(String)
+2019-12-10 19:24:35.636 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 1
+2019-12-10 19:24:45.966 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==>  Preparing: select * from teacher 
+2019-12-10 19:24:45.966 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==> Parameters: 
+2019-12-10 19:24:45.967 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - <==      Total: 2
+2019-12-10 19:24:48.330 [http-nio-80-exec-10] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:24:48.330 [http-nio-80-exec-10] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 123456(String)
+2019-12-10 19:24:48.333 [http-nio-80-exec-10] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:26:24.561 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:26:24.562 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:26:24.564 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:26:24.570 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:26:24.571 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:26:24.573 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:26:25.990 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==>  Preparing: select * from teacher 
+2019-12-10 19:26:25.991 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==> Parameters: 
+2019-12-10 19:26:25.992 [http-nio-80-exec-9] DEBUG com.submit.dao.teacherMapper.getAllTeacher - <==      Total: 2
+2019-12-10 19:26:34.550 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:26:34.551 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:26:34.552 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:26:34.568 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.insertSelective - ==>  Preparing: insert into teacher ( teacherno, name, password, level ) values ( ?, ?, ?, ? ) 
+2019-12-10 19:26:34.573 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.insertSelective - ==> Parameters: 9527(String), 李四(String), 9527(String), 1(Byte)
+2019-12-10 19:26:34.644 [http-nio-80-exec-7] DEBUG com.submit.dao.teacherMapper.insertSelective - <==    Updates: 1
+2019-12-10 19:26:45.392 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:26:45.393 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:26:45.394 [http-nio-80-exec-1] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:26:46.715 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==>  Preparing: select * from teacher 
+2019-12-10 19:26:46.715 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==> Parameters: 
+2019-12-10 19:26:46.717 [http-nio-80-exec-5] DEBUG com.submit.dao.teacherMapper.getAllTeacher - <==      Total: 3
+2019-12-10 19:28:00.011 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:28:00.012 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), (String)
+2019-12-10 19:28:00.013 [http-nio-80-exec-4] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 6
+2019-12-10 19:28:03.243 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:28:03.243 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 1996(String)
+2019-12-10 19:28:03.246 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 4
+2019-12-10 19:28:04.322 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:28:04.323 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 1996(String)
+2019-12-10 19:28:04.327 [http-nio-80-exec-8] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 4
+2019-12-10 19:28:04.396 [http-nio-80-exec-10] DEBUG c.submit.dao.studentclassMapper.getstudentbyclaid - ==>  Preparing: select a.id, a.no,s.name,s.pinyin,a.classid, a.studentno,a.note from studentclass a left join student s on a.studentno = s.studentno where a.classID=? order by a.no asc 
+2019-12-10 19:28:04.397 [http-nio-80-exec-10] DEBUG c.submit.dao.studentclassMapper.getstudentbyclaid - ==> Parameters: (String)
+2019-12-10 19:28:04.398 [http-nio-80-exec-10] DEBUG c.submit.dao.studentclassMapper.getstudentbyclaid - <==      Total: 0
+2019-12-10 19:28:05.218 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:28:05.219 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 1996(String)
+2019-12-10 19:28:05.221 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 4
+2019-12-10 19:28:06.527 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:28:06.527 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 1996(String)
+2019-12-10 19:28:06.530 [http-nio-80-exec-7] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 4
+2019-12-10 19:28:06.978 [http-nio-80-exec-4] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==>  Preparing: select * from teachclass where teacherno=? ORDER BY coursesemester DESC 
+2019-12-10 19:28:06.978 [http-nio-80-exec-4] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - ==> Parameters: 1996(String)
+2019-12-10 19:28:06.980 [http-nio-80-exec-4] DEBUG c.s.dao.teachclassMapper.getteacherclassbyteachid - <==      Total: 4
+2019-12-10 19:28:07.596 [http-nio-80-exec-10] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:28:07.597 [http-nio-80-exec-10] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:28:07.598 [http-nio-80-exec-10] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:28:11.421 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:28:11.422 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:28:11.423 [http-nio-80-exec-8] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:28:12.613 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:28:12.614 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:28:12.615 [http-nio-80-exec-2] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:28:18.474 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:28:18.474 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:28:18.476 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:28:20.299 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - ==>  Preparing: select * from student where studentno like CONCAT('%',?,'%') and name like CONCAT('%',?,'%') 
+2019-12-10 19:28:20.300 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - ==> Parameters: (String), (String)
+2019-12-10 19:28:20.301 [http-nio-80-exec-5] DEBUG com.submit.dao.studentMapper.getallstudent - <==      Total: 6
+2019-12-10 19:28:20.977 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==>  Preparing: select * from teacher 
+2019-12-10 19:28:20.978 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.getAllTeacher - ==> Parameters: 
+2019-12-10 19:28:20.979 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.getAllTeacher - <==      Total: 3
+2019-12-10 19:28:21.929 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:28:21.929 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:28:21.930 [http-nio-80-exec-6] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
+2019-12-10 19:28:23.516 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==>  Preparing: select teacherno, name, password, level from teacher where teacherno = ? 
+2019-12-10 19:28:23.516 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - ==> Parameters: 1996(String)
+2019-12-10 19:28:23.518 [http-nio-80-exec-3] DEBUG com.submit.dao.teacherMapper.selectByPrimaryKey - <==      Total: 1
